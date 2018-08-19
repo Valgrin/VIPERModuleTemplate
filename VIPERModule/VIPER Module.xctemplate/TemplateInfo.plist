@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>A VIPER Module.</string>
+	<key>Summary</key>
+	<string>A VIPER Module</string>
+	<key>SortOrder</key>
+	<string>1</string>
+	<key>DefaultCompletionName</key>
+	<string>VIPERModule</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Module Name:</string>
+			<key>Description</key>
+			<string>The name of the module to create</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>cocoaTouchSubclass</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Name</key>
+			<string>UIKit Subclass</string>
+			<key>Description</key>
+			<string>What class to subclass in the new file</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>UIViewController</string>
+			<key>FallbackHeader</key>
+			<string>import UIKit</string>
+			<key>Values</key>
+			<array>
+				<string>UIView</string>
+				<string>UICollectionViewController</string>
+				<string>UITableViewController</string>
+				<string>UIViewController</string>
+			</array>
+			<key>Suffixes</key>
+			<dict>
+				<key>UITableViewController</key>
+				<string>TableViewController</string>
+				<key>UICollectionViewController</key>
+				<string>CollectionViewController</string>
+				<key>UIViewController</key>
+				<string>ViewController</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
